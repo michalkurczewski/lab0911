@@ -12,6 +12,6 @@ function policz(input){
         display.value = eval(display.value);
     }
     catch(error){
-        display.value = "Próbujesz zrobic coś czego nie można!"
+        display.value = "Błąd"
     }
 }
