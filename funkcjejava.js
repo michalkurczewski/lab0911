@@ -1,6 +1,8 @@
 const display = document.getElementById("display");
 
 function dodajDoWidoku(input){
+    if (display.value == "Błąd")
+        display.value = "";
     display.value += input;
 }
 
